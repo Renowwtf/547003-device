@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Андрей Карпушин](https://up.htmlacademy.ru/htmlcss/19/user/547003).
-* Наставник: `https://htmlacademy.ru/profile/id353379`.
+* Наставник: [Екатерина Симонова](https://up.htmlacademy.ru/htmlcss/19/user/353379)
 
 ---
 
