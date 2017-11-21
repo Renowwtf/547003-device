@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Девайс</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <a class="main-header-logo">
+        <img src="img/logo.png" alt="Магазин техники Девайс">
+      </a>
+      <div class="header-mainnav">
+        <div class=”user-log”
+          <a class="user-profile" href="profile.html">Данте Алигьери</a>
+          <a class=”log-off” href=”#”>Выйти</a>
+        </div>
+        <a class="compare-list" href="compare-list.html">Сравнить</a>
+        <a class="cart" href="cart.html">Корзина</a>
+        <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+          <label for="search" class="visually-hidden">Поиск по сайту</label>
+          <input id="search" type="text" name="search" placeholder="Поиск по сайту">
+          <button type="submit" name="find">Найти</button>
+        </form>
+      </div>
+      <nav class="header-navigation">
+        <ul class="header-menu>">
+          <li class="catalog-menu">
+            <ul class="catalog-menu">
+              <li><a href="VR.html">Виртуальная реальность</a></li>
+              <li><a href="Monopods.html">Моноподы для селфи</a></li>
+              <li><a href="Action-cameras.html">Экшн-камеры</a></li>
+              <li><a href="Fitness.html">Фитнес-браслеты</a></li>
+              <li><a href="Watches.html">Умные часы</a></li>
+              <li><a href="Drones.html">Квадрокоптеры</a></li>
+            </ul>
+          </li>
+          <li><a href="shipping.html">Доставка</a></li>
+          <li><a href="warranty.html">Гарантия</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class=”monopods”>
+        <h1>Моноподы для селфи</h1>
+        <ul class=”breadcrumbs”>
+          <li><a href="index.ru">Главная</a></li>
+          <li><a href=”#”>Каталог товаров</a></li>
+          <li class=”active”><a href=”#.ru”>Моноподы для селфи</a></li>
+        </ul>
+      </section>
+      <section class=”main-part”>
+        <div>
+          <form class="filter" action="echo.htmlacademy.com" method="post">
+            <fieldset class="price">
+              <legend>Стоимость</label>
+              <input type="range" min="0" max="5000">
+              <input type="range" min="5000" max="10000">
+            </fieldset>
+            <fieldset class="color">
+              <legend>Цвет</legend>
+              <input id="black" type="checkbox" name="black" checked>
+              <label for="black">Черный</label>
+              <input id="white" type="checkbox" name="white">
+              <label for="white">Белый</label>
+              <input id="blue" type="checkbox" name="blue"checked>
+              <label for="blue">Синий</label>
+              <input id="red" type="checkbox" name="red"checked>
+              <label for="red">Красный</label>
+              <input id="pink" type="checkbox" name="pink">
+              <label for="pink">Розовый</label>
+            </fieldset>
+            <fieldset class="Bluetooth">
+              <legend>Bluetooth</legend>
+              <input id="yes" type="radio" name="yes" checked>
+              <label for="yes">Есть</label>
+              <input id="no" type="radio" name="no">
+              <label for="no">
+            </fieldset>
+            <input type="submit" value="Показать">
+          </form>
+        </div>
+
+        <div class=”sort”>
+          <h2>Сортировка:</h2>
+          <ul>
+            <li>По цене</li>
+            <li>По типу</li>
+            <li>По популярности</li>
+            <li><a href=”#”><img src=”img/page-up” alt=”Стрелка вверх”></a></li>
+            <li><a href=”#”><img src=”img/page-down” alt=”Стрелка вниз”></a></li>
+          </ul>
+        <article class="items">
+          <p>Любительская селфи-палка</p>
+          <img src="img/item-1.jpg" alt="Любительская селфи-палка">
+          <span>500 руб</span>
+          <a class="to-cart" href="cart.html">В корзину</a>
+          <a class="to-compare-list" href="compare-list.html">Сравнить</a>
+        </article>
+        <article class="items">
+          <p>Профессиональная селфи-палка</p>
+          <img src="img/item-2.jpg" alt="Профессиональная селфи-палка">
+          <span>1500 руб</span>
+          <a class="to-cart" href="cart.html">В корзину</a>
+          <a class="to-compare-list" href="compare-list.html">Сравнить</a>
+        </article>
+        <article class="items">
+          <p>Непотопляемая селфи-палка</p>
+          <img src="img/item-3.jpg" alt="Непотопляемая селфи-палка">
+          <span>2500 руб</span>
+          <a class="to-cart" href="cart.html">В корзину</a>
+          <a class="to-compare-list" href="compare-list.html">Сравнить</a>
+        </article>
+        <article class="items">
+          <p>Селфи-палка "Следуй за мной"</p>
+          <img src="img/item-4.jpg" alt="Селфи-палка Следуй за мной">
+          <span>4900 руб</span>
+          <a class="to-cart" href="cart.html">В корзину</a>
+          <a class="to-compare-list" href="compare-list.html">Сравнить</a>
+        </article>
+        <div class="bottom-nav">
+          <ul  class="page-list">
+            <li><input type="button" value="ВПЕРЕД"></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a  href="#">3</a></li>
+            <li><input type="button" value="НАЗАД"></li>
+          </ul>
+        </div>
+      </section>
+      <footer class="main-footer">
+        <div class="logo-adress">
+          <a href="index.html"><img class="logo-footer" src="img/logo2.png" alt="Магазин техники Девайс"></a>
+          <p class="adress">г.Москва, ул.Строителей, 15</p>
+        </div>
+        <div class="menu-social">
+          <a href="shipping.html">Доставка</a>
+          <a href="warranty.html">Гарантия</a>
+          <a href="contacts.html">Контакты</a>
+          <div class="social">
+            <a href="facebook.com"><img src="img/fb.svg" alt="Фейсбук"></a>
+            <a href="instagram.com"><img src="img/inst.svg" alt="Инстаграм"></a>
+            <a href="twitter.com"><img src="img/twit.svg" alt="Твиттер"></a>
+          </div>
+        </div>
+        <div class="user-phonenum">
+          <a class="login" href="login-form.html">Войти</a>
+          <a class="compare-list" href="compare-list.html">Сравнить</a>
+          <a class="cart" href="cart.html">Корзина</a>
+          <a class="HTML-academy" href="https://htmlacademy.ru/intensive/htmlcss">
+            <img class="HTML-academy-logo" src="img/logo-HTML.png" alt="Альма-матер">
+          </a>
+          <p class="phone-number">Тел.:+7 (495) 499-95-95</p>
+        </div>
+      </footer>
+    </body>
+  </html>
